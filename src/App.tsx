@@ -6,12 +6,12 @@ import { AuthProvider } from './provider/AuthProvider.tsx';
 import './App.scss';
 import { BreedsProvider } from './provider/BreedsProvider.tsx';
 import { FavDogsProvider } from './provider/FavDogsProvider.tsx';
-import { InfoMessage } from './components/InfoMessage/InfoMessage.tsx';
 import { InfoMessageProvider } from './provider/InfoMessageProvider.tsx';
-import dotenv from  'dotenv'
 
 
 function App() {
+
+  document.title = `Purple dog`;
 
   return (
     <div className="App">
