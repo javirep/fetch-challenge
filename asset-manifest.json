@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fetch-challenge/static/css/main.86ff5e54.css",
+    "main.js": "/fetch-challenge/static/js/main.d6bd030c.js",
+    "static/js/453.3f58fd6e.chunk.js": "/fetch-challenge/static/js/453.3f58fd6e.chunk.js",
+    "static/media/PurpleDog.png": "/fetch-challenge/static/media/PurpleDog.3d0434fa5cc5a4dc24e2.png",
+    "static/media/search.svg": "/fetch-challenge/static/media/search.dc77fcb80c94b9c4b3251f3c6c817344.svg",
+    "index.html": "/fetch-challenge/index.html",
+    "main.86ff5e54.css.map": "/fetch-challenge/static/css/main.86ff5e54.css.map",
+    "main.d6bd030c.js.map": "/fetch-challenge/static/js/main.d6bd030c.js.map",
+    "453.3f58fd6e.chunk.js.map": "/fetch-challenge/static/js/453.3f58fd6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86ff5e54.css",
+    "static/js/main.d6bd030c.js"
+  ]
+}
