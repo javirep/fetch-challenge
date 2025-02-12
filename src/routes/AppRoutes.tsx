@@ -11,7 +11,7 @@ const AppRouter = () => {
     return (
     <Routes>
         <Route element={<AuthRoutes />}>
-            <Route path='/' element={<PetFinder />} />
+            <Route path='/fetch-challenge/' element={<PetFinder />} />
         </Route>
         <Route element={<NonAuthRoutes />}>
             <Route path="/login" element={<Login />} />
