@@ -1,0 +1,26 @@
+.fav-dog-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px 16px;
+    gap:8px;
+
+    .fav-dog-card-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .fav-dog-card-info{
+        margin-right: 12px;
+    }
+
+
+    &:hover{
+        background-color: #faebf8;
+    }
+    
+}

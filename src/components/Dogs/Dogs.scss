@@ -1,0 +1,22 @@
+.dogs-container {
+    max-width: 780px;   
+    margin-bottom: 0;
+
+    .dogs-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        max-height: calc(100vh - 350px);
+        overflow-y: scroll;
+        padding: 0 16px;
+        
+    }
+    .dogs-sort{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+}
+

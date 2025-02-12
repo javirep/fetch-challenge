@@ -1,0 +1,30 @@
+.NavigationBar .navbar{
+    max-width: 100%;
+    height: 72px;
+    /* UI Properties */
+    background-color: #FFFFFF ;
+    border-radius: 70px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 32px 4px;
+}   
+
+.NavigationBar .nav-options{
+    display: flex;
+    justify-content: space-between;
+    
+}   
+.NavigationBar .nav-options .nav-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 41px;
+    padding: 12px 16px;
+}   
+.NavigationBar .nav-options .nav-option.selected{
+    background-color: #7d1f70;
+    color: white;
+}   

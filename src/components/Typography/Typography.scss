@@ -1,0 +1,53 @@
+.typography {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  font: normal normal 14px/19px Manrope;
+  
+  &.typography-title{
+    color: #7d1f70;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+
+    @media screen and (max-width: 768px){
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  &.typography-subtitle{
+    color: #707070;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+
+    @media screen and (max-width: 768px){
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  &.typography-body{
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    
+    @media screen and (max-width: 768px){
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  &.typography-error{
+    color: #c34d7c;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+
+  &.center{
+    text-align: center;
+  }
+}

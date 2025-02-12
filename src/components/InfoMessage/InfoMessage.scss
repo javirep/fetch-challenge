@@ -1,0 +1,12 @@
+.info-message-container {
+    position: absolute;
+    width: 300px;
+    top: -20px;
+    left: calc(50vw - 150px);
+    border: 1px solid #000;
+    padding: 8px 16px;
+    text-align: center;
+    background-color:#fff ;
+
+    transition: top 0.2s;
+}

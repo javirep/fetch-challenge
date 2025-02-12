@@ -1,0 +1,39 @@
+.breeds-container { 
+    position: relative;
+}
+
+.breeds-main{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    height: calc(100vh - 250px);
+    overflow: scroll;
+
+
+    .breed-tag{
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 8px 16px;
+
+        &:hover{
+            background-color: #faebf8;
+        }
+
+        &.selected{
+            background-color: #f0c2e9;
+        }
+
+        &.selected:hover{
+            background-color: #e699db;
+        }
+    }
+
+}
+
+.breeds-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 16px;
+    margin: 16px 0;
+}

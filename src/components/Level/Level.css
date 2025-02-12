@@ -1,0 +1,6 @@
+.level {
+    display: flex;
+    gap: 4px;
+    align-self: center;
+    width: 100%;
+}
